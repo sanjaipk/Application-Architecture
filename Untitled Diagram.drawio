@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-29T15:57:46.650Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="IZatRI8Agi_Kdyx5XMkF" version="16.1.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-12-29T17:16:48.120Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="qH2WpGsgVoXfCwnDJ83z" version="16.1.0" type="github" pages="2">
   <diagram id="wJDWuHTwm4FQ84Dt6kpp" name="Page-1">
     <mxGraphModel dx="1029" dy="778" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -77,55 +77,55 @@
     </mxGraphModel>
   </diagram>
   <diagram id="iqIZoxEivp2pyksVVSvk" name="Page-2">
-    <mxGraphModel dx="1879" dy="778" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1029" dy="778" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="uCCO_xtjuLePTO4A8diP-0" />
         <mxCell id="uCCO_xtjuLePTO4A8diP-1" parent="uCCO_xtjuLePTO4A8diP-0" />
         <mxCell id="uCCO_xtjuLePTO4A8diP-2" value="HTML/CSS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="uCCO_xtjuLePTO4A8diP-1">
-          <mxGeometry x="70" y="130" width="130" height="60" as="geometry" />
+          <mxGeometry x="127.5" y="185" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uCCO_xtjuLePTO4A8diP-3" value="Business Layer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="uCCO_xtjuLePTO4A8diP-1">
-          <mxGeometry x="100" y="200" width="100" height="60" as="geometry" />
+          <mxGeometry x="157.5" y="255" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uCCO_xtjuLePTO4A8diP-4" value="Store" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="uCCO_xtjuLePTO4A8diP-1">
-          <mxGeometry x="220" y="200" width="100" height="60" as="geometry" />
+          <mxGeometry x="277.5" y="255" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uCCO_xtjuLePTO4A8diP-5" value="service workers (PWA)&lt;br&gt;(background fetch)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="uCCO_xtjuLePTO4A8diP-1">
-          <mxGeometry x="72" y="270" width="270" height="60" as="geometry" />
+          <mxGeometry x="129.5" y="325" width="270" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uCCO_xtjuLePTO4A8diP-8" value="SS" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="uCCO_xtjuLePTO4A8diP-1">
-          <mxGeometry x="322" y="200" width="20" height="20" as="geometry" />
+          <mxGeometry x="379.5" y="255" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="uCCO_xtjuLePTO4A8diP-10" value="iDB" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="uCCO_xtjuLePTO4A8diP-1">
-          <mxGeometry x="322" y="220" width="20" height="20" as="geometry" />
+          <mxGeometry x="379.5" y="275" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="uCCO_xtjuLePTO4A8diP-11" value="Cok" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="uCCO_xtjuLePTO4A8diP-1">
-          <mxGeometry x="322" y="240" width="20" height="20" as="geometry" />
+          <mxGeometry x="379.5" y="295" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="uCCO_xtjuLePTO4A8diP-12" value="Security" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="uCCO_xtjuLePTO4A8diP-1">
-          <mxGeometry x="70" y="110" width="270" height="20" as="geometry" />
+          <mxGeometry x="127.5" y="165" width="270" height="20" as="geometry" />
         </mxCell>
         <mxCell id="uCCO_xtjuLePTO4A8diP-15" value="MaterializeCSS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="uCCO_xtjuLePTO4A8diP-1">
-          <mxGeometry x="220" y="130" width="120" height="20" as="geometry" />
+          <mxGeometry x="277.5" y="185" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="uCCO_xtjuLePTO4A8diP-16" value="Ngx Bootstrap" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="uCCO_xtjuLePTO4A8diP-1">
-          <mxGeometry x="220" y="150" width="120" height="20" as="geometry" />
+          <mxGeometry x="277.5" y="205" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="uCCO_xtjuLePTO4A8diP-17" value="ionic" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="uCCO_xtjuLePTO4A8diP-1">
-          <mxGeometry x="220" y="170" width="120" height="20" as="geometry" />
+          <mxGeometry x="277.5" y="225" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="uCCO_xtjuLePTO4A8diP-18" value="ionic" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="uCCO_xtjuLePTO4A8diP-1">
-          <mxGeometry x="70" y="200" width="30" height="30" as="geometry" />
+          <mxGeometry x="127.5" y="255" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="uCCO_xtjuLePTO4A8diP-20" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.donut;dx=25;" vertex="1" parent="uCCO_xtjuLePTO4A8diP-1">
-          <mxGeometry x="-17.5" y="25" width="445" height="430" as="geometry" />
+          <mxGeometry x="40" y="50" width="445" height="430" as="geometry" />
         </mxCell>
         <mxCell id="uCCO_xtjuLePTO4A8diP-21" value="1. Automation testing first approach&lt;br&gt;2. E2E testing&lt;br&gt;3. unit testing&lt;br&gt;4. offline first&lt;br&gt;5. mobile first approach&lt;br&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=left;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};spacingLeft=26;" vertex="1" parent="uCCO_xtjuLePTO4A8diP-1">
-          <mxGeometry x="480" y="120" width="250" height="80" as="geometry" />
+          <mxGeometry x="537.5" y="175" width="250" height="80" as="geometry" />
         </mxCell>
         <mxCell id="uCCO_xtjuLePTO4A8diP-22" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;" edge="1" target="uCCO_xtjuLePTO4A8diP-21" parent="uCCO_xtjuLePTO4A8diP-1" source="uCCO_xtjuLePTO4A8diP-20">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="400" y="140" as="sourcePoint" />
+            <mxPoint x="457.5" y="195" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="uCCO_xtjuLePTO4A8diP-23" value="1. Srini (electron) - nodejs&lt;br&gt;2. Morgrate broker (static)&lt;br&gt;3. NGO website (static)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="uCCO_xtjuLePTO4A8diP-1">
