@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-25T13:54:08.175Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="g-MfYBbbe0GDCDOx3DK4" version="17.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-25T13:55:01.997Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="1e5gUsymlfhhfaEnDFpc" version="17.1.3" type="github">
   <diagram id="0L9Fg00umyLuJMHlyUDf" name="Page-1">
     <mxGraphModel dx="1124" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -38,7 +38,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="rSeW_cTTSjzpE_r_Ttbj-10" value="Jenkins&lt;br&gt;CURL Shell" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="830" y="195" width="120" height="50" as="geometry" />
+          <mxGeometry x="830" y="200" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="rSeW_cTTSjzpE_r_Ttbj-11" value="&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;every 5 minutes" style="sketch=0;html=1;aspect=fixed;strokeColor=none;shadow=0;align=center;verticalAlign=top;fillColor=#3B8DF1;shape=mxgraph.gcp2.arrow_cycle" vertex="1" parent="1">
           <mxGeometry x="920" y="220" width="63.16" height="60" as="geometry" />
@@ -73,7 +73,7 @@
             <mxPoint x="780" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rSeW_cTTSjzpE_r_Ttbj-19" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="rSeW_cTTSjzpE_r_Ttbj-1" target="rSeW_cTTSjzpE_r_Ttbj-3">
+        <mxCell id="rSeW_cTTSjzpE_r_Ttbj-19" value="get current status" style="curved=1;endArrow=classic;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;dashed=1;" edge="1" parent="1" source="rSeW_cTTSjzpE_r_Ttbj-1" target="rSeW_cTTSjzpE_r_Ttbj-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="400" y="430" as="sourcePoint" />
             <mxPoint x="450" y="380" as="targetPoint" />
