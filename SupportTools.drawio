@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-14T12:08:36.111Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36" etag="BFQa2omHbCl_5N7KjbFp" version="20.0.1" type="github" pages="4">
-  <diagram id="Q4apKeaZOW8D5BqgM2T3" name="LEMT">
-    <mxGraphModel dx="2047" dy="1805" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+<mxfile host="app.diagrams.net" modified="2022-06-14T15:17:07.006Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36" etag="RWbJU1cWZpDHEIwayKIW" version="20.0.1" type="github" pages="4">
+  <diagram id="Q4apKeaZOW8D5BqgM2T3" name="LEMT-IIB">
+    <mxGraphModel dx="2197" dy="1805" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -203,8 +203,174 @@
       </root>
     </mxGraphModel>
   </diagram>
+  <diagram id="9uu1UoiV0qQrS8yvtTqc" name="LEMT-TAS">
+    <mxGraphModel dx="2534" dy="1981" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gXYf_dAZeqefdJGXJ3g7-37" value="Service" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontColor=default;fillColor=none;fontStyle=1;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="16" width="220" height="224" as="geometry" />
+        </mxCell>
+        <mxCell id="gXYf_dAZeqefdJGXJ3g7-1" value="Log Importer" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontColor=default;fillColor=none;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;fontStyle=1;strokeColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="-30" width="490" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="gXYf_dAZeqefdJGXJ3g7-2" value="Simplifier" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontColor=default;fillColor=none;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="620" y="150" width="220" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="gXYf_dAZeqefdJGXJ3g7-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;" edge="1" parent="1" source="evOIvVAKoPCNP1A1HWml-1" target="gXYf_dAZeqefdJGXJ3g7-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="230.75" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gXYf_dAZeqefdJGXJ3g7-15" value=".log files" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=1" edge="1" parent="1" source="evOIvVAKoPCNP1A1HWml-1" target="gXYf_dAZeqefdJGXJ3g7-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="240" as="targetPoint" />
+            <mxPoint x="370" y="230.79999999999995" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gXYf_dAZeqefdJGXJ3g7-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=default;" edge="1" parent="1" source="evOIvVAKoPCNP1A1HWml-1" target="gXYf_dAZeqefdJGXJ3g7-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="430" y="210" />
+              <mxPoint x="430" y="170" />
+              <mxPoint x="760" y="170" />
+            </Array>
+            <mxPoint x="370" y="210" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gXYf_dAZeqefdJGXJ3g7-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontColor=default;startArrow=blockThin;startFill=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="evOIvVAKoPCNP1A1HWml-1" target="gXYf_dAZeqefdJGXJ3g7-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="200.75" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gXYf_dAZeqefdJGXJ3g7-21" value=".log files" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=default;" edge="1" parent="1" source="gXYf_dAZeqefdJGXJ3g7-22" target="gXYf_dAZeqefdJGXJ3g7-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gXYf_dAZeqefdJGXJ3g7-22" value="/nas/observatory/TAS&lt;br&gt;(IntakeLogs Folder)" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.nas_filer;" vertex="1" parent="1">
+          <mxGeometry x="500" y="222.5" width="100" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="gXYf_dAZeqefdJGXJ3g7-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=default;" edge="1" parent="1" source="gXYf_dAZeqefdJGXJ3g7-29" target="gXYf_dAZeqefdJGXJ3g7-57">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="940" y="180" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="870" y="240" />
+              <mxPoint x="870" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gXYf_dAZeqefdJGXJ3g7-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=default;" edge="1" parent="1" source="gXYf_dAZeqefdJGXJ3g7-29" target="gXYf_dAZeqefdJGXJ3g7-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="760" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gXYf_dAZeqefdJGXJ3g7-28" value=".log files" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=default;fontStyle=1" vertex="1" connectable="0" parent="gXYf_dAZeqefdJGXJ3g7-27">
+          <mxGeometry x="0.4727" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gXYf_dAZeqefdJGXJ3g7-29" value="LEMT-LogSimplifier.py" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="700" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gXYf_dAZeqefdJGXJ3g7-31" value="/nas/observatory/TAS&lt;br&gt;(ProcessedLogs Folder)" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.nas_filer;" vertex="1" parent="1">
+          <mxGeometry x="920" y="290" width="100" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="gXYf_dAZeqefdJGXJ3g7-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=default;endArrow=classic;endFill=1;startArrow=block;startFill=1;" edge="1" parent="1" source="gXYf_dAZeqefdJGXJ3g7-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1000" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gXYf_dAZeqefdJGXJ3g7-33" value="API Calls" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=default;fontStyle=1" vertex="1" connectable="0" parent="gXYf_dAZeqefdJGXJ3g7-32">
+          <mxGeometry x="-0.1211" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gXYf_dAZeqefdJGXJ3g7-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=default;startArrow=none;startFill=0;endArrow=classic;endFill=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="gXYf_dAZeqefdJGXJ3g7-35" target="gXYf_dAZeqefdJGXJ3g7-36">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1190" y="90" />
+              <mxPoint x="1190" y="90" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gXYf_dAZeqefdJGXJ3g7-35" value="LEMT-API.py" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gXYf_dAZeqefdJGXJ3g7-36" value="/nas/observatory/TAS&lt;br&gt;(LEMT-Tool Logs)" style="fontColor=#0066CC;verticalAlign=bottom;verticalLabelPosition=top;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.nas_filer;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="70" width="100" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="gXYf_dAZeqefdJGXJ3g7-38" value="HTTP Calls" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.786;entryY=1.007;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=default;startArrow=blockThin;startFill=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="gXYf_dAZeqefdJGXJ3g7-39" target="gXYf_dAZeqefdJGXJ3g7-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gXYf_dAZeqefdJGXJ3g7-39" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.website_generic;pointerEvents=1;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1133" y="390" width="178" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="gXYf_dAZeqefdJGXJ3g7-40" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/phosphor-fill-vol-3/256/number-square-two-fill-128.png;fontColor=default;strokeWidth=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1236" y="135" width="28" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="gXYf_dAZeqefdJGXJ3g7-41" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/free-funktional-icons/48/01_Warning_48x48.png;fontColor=default;strokeWidth=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="240" y="192" width="18" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="gXYf_dAZeqefdJGXJ3g7-42" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/scripting-and-programming-languages/512/Python_logo-128.png;fontColor=default;strokeWidth=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="800" y="250.75" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gXYf_dAZeqefdJGXJ3g7-43" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/scripting-and-programming-languages/512/Python_logo-128.png;fontColor=default;strokeWidth=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1228.5" y="188.5" width="21.5" height="21.5" as="geometry" />
+        </mxCell>
+        <mxCell id="gXYf_dAZeqefdJGXJ3g7-44" value="" style="group;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="210" width="133" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="gXYf_dAZeqefdJGXJ3g7-45" value="" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="gXYf_dAZeqefdJGXJ3g7-44">
+          <mxGeometry y="10" width="120" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="gXYf_dAZeqefdJGXJ3g7-46" value="bevas01vr" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/VM_Linux.svg;labelPosition=center;verticalLabelPosition=top;verticalAlign=bottom;" vertex="1" parent="gXYf_dAZeqefdJGXJ3g7-44">
+          <mxGeometry x="15" y="40" width="50" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="gXYf_dAZeqefdJGXJ3g7-47" value="Crontab" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/Futurosoft%20Icons%200.5.2/128x128/mimetypes/Schedule_File.png" vertex="1" parent="gXYf_dAZeqefdJGXJ3g7-44">
+          <mxGeometry x="40" y="60" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gXYf_dAZeqefdJGXJ3g7-48" value="skrish04" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/azure_stack/User_Subscriptions.svg;" vertex="1" parent="gXYf_dAZeqefdJGXJ3g7-44">
+          <mxGeometry x="73.20999999999998" y="14" width="26.79" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="gXYf_dAZeqefdJGXJ3g7-49" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/phosphor-fill-vol-3/256/number-square-one-fill-128.png;fontColor=default;strokeWidth=1;fillColor=none;" vertex="1" parent="gXYf_dAZeqefdJGXJ3g7-44">
+          <mxGeometry x="100" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gXYf_dAZeqefdJGXJ3g7-50" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/generic_server.svg;" vertex="1" parent="gXYf_dAZeqefdJGXJ3g7-44">
+          <mxGeometry x="102" y="100" width="28.000000000000004" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gXYf_dAZeqefdJGXJ3g7-52" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/generic_server.svg;" vertex="1" parent="1">
+          <mxGeometry x="800" y="186" width="28.000000000000004" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gXYf_dAZeqefdJGXJ3g7-53" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/generic_server.svg;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="124" width="28.000000000000004" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gXYf_dAZeqefdJGXJ3g7-4" value="Server1" style="image;html=1;image=img/lib/clip_art/computers/Server_Rack_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="20" y="170.75" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gXYf_dAZeqefdJGXJ3g7-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gXYf_dAZeqefdJGXJ3g7-7" target="gXYf_dAZeqefdJGXJ3g7-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gXYf_dAZeqefdJGXJ3g7-7" value="Server2" style="image;html=1;image=img/lib/clip_art/computers/Server_Rack_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="-10" y="190.75" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gXYf_dAZeqefdJGXJ3g7-5" value="TAS Portal&lt;br&gt;(Logs)" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#505050;shape=mxgraph.mscae.oms.log_management" vertex="1" parent="1">
+          <mxGeometry x="120" y="205.75" width="41" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gXYf_dAZeqefdJGXJ3g7-10" value="Server3" style="image;html=1;image=img/lib/clip_art/computers/Server_Rack_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="-30" y="177.5" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gXYf_dAZeqefdJGXJ3g7-57" value="influxDB" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/preview/Time_Series_Data_Sets.svg;" vertex="1" parent="1">
+          <mxGeometry x="946" y="137" width="48" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="evOIvVAKoPCNP1A1HWml-1" value="UI Automation&lt;br&gt;Write API" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/compute/Azure_Spring_Cloud.svg;imageBackground=#CCFFE6;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="258" y="198.75" width="68" height="64" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
   <diagram id="qo9MnVVn6mKX7L6mn1lG" name="HCMT">
-    <mxGraphModel dx="1197" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1347" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -366,181 +532,10 @@
     </mxGraphModel>
   </diagram>
   <diagram id="gGyMc5ds3GC3vEudTFBK" name="PerfT">
-    <mxGraphModel dx="1197" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1347" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="9uu1UoiV0qQrS8yvtTqc" name="LEMT-TAS">
-    <mxGraphModel dx="2047" dy="1805" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="gXYf_dAZeqefdJGXJ3g7-37" value="Service" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontColor=default;fillColor=none;fontStyle=1;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="1050" y="16" width="220" height="224" as="geometry" />
-        </mxCell>
-        <mxCell id="gXYf_dAZeqefdJGXJ3g7-1" value="Log Importer" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontColor=default;fillColor=none;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="-20" y="-30" width="490" height="380" as="geometry" />
-        </mxCell>
-        <mxCell id="gXYf_dAZeqefdJGXJ3g7-2" value="Simplifier" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontColor=default;fillColor=none;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="620" y="150" width="220" height="220" as="geometry" />
-        </mxCell>
-        <mxCell id="gXYf_dAZeqefdJGXJ3g7-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;" edge="1" parent="1" source="evOIvVAKoPCNP1A1HWml-1" target="gXYf_dAZeqefdJGXJ3g7-5">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="250" y="230.75" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="gXYf_dAZeqefdJGXJ3g7-15" value=".log files" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=1" edge="1" parent="1" source="evOIvVAKoPCNP1A1HWml-1" target="gXYf_dAZeqefdJGXJ3g7-22">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="470" y="240" as="targetPoint" />
-            <mxPoint x="370" y="230.79999999999995" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="gXYf_dAZeqefdJGXJ3g7-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=default;" edge="1" parent="1" source="evOIvVAKoPCNP1A1HWml-1" target="gXYf_dAZeqefdJGXJ3g7-29">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="430" y="210" />
-              <mxPoint x="430" y="170" />
-              <mxPoint x="760" y="170" />
-            </Array>
-            <mxPoint x="370" y="210" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="gXYf_dAZeqefdJGXJ3g7-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontColor=default;startArrow=blockThin;startFill=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="evOIvVAKoPCNP1A1HWml-1" target="gXYf_dAZeqefdJGXJ3g7-45">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="310" y="200.75" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="gXYf_dAZeqefdJGXJ3g7-21" value=".log files" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=default;" edge="1" parent="1" source="gXYf_dAZeqefdJGXJ3g7-22" target="gXYf_dAZeqefdJGXJ3g7-29">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="gXYf_dAZeqefdJGXJ3g7-22" value="/nas/observatory&lt;br&gt;(IntakeLogs Folder)" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.nas_filer;" vertex="1" parent="1">
-          <mxGeometry x="500" y="222.5" width="100" height="35" as="geometry" />
-        </mxCell>
-        <mxCell id="gXYf_dAZeqefdJGXJ3g7-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=default;" edge="1" parent="1" source="gXYf_dAZeqefdJGXJ3g7-29" target="gXYf_dAZeqefdJGXJ3g7-57">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="940" y="180" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="870" y="240" />
-              <mxPoint x="870" y="180" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="gXYf_dAZeqefdJGXJ3g7-26" value="influxdb" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=default;fontStyle=1" vertex="1" connectable="0" parent="gXYf_dAZeqefdJGXJ3g7-25">
-          <mxGeometry x="-0.2759" y="2" relative="1" as="geometry">
-            <mxPoint y="-17" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="gXYf_dAZeqefdJGXJ3g7-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=default;" edge="1" parent="1" source="gXYf_dAZeqefdJGXJ3g7-29" target="gXYf_dAZeqefdJGXJ3g7-31">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="760" y="320" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="gXYf_dAZeqefdJGXJ3g7-28" value=".log files" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=default;fontStyle=1" vertex="1" connectable="0" parent="gXYf_dAZeqefdJGXJ3g7-27">
-          <mxGeometry x="0.4727" y="2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="gXYf_dAZeqefdJGXJ3g7-29" value="LEMT-LogSimplifier.py" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="700" y="210" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="gXYf_dAZeqefdJGXJ3g7-31" value="/nas/observatory&lt;br&gt;(ProcessedLogs Folder)" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.nas_filer;" vertex="1" parent="1">
-          <mxGeometry x="920" y="290" width="100" height="35" as="geometry" />
-        </mxCell>
-        <mxCell id="gXYf_dAZeqefdJGXJ3g7-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=default;endArrow=classic;endFill=1;startArrow=block;startFill=1;" edge="1" parent="1" source="gXYf_dAZeqefdJGXJ3g7-35">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1000" y="180" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="gXYf_dAZeqefdJGXJ3g7-33" value="API Calls" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=default;fontStyle=1" vertex="1" connectable="0" parent="gXYf_dAZeqefdJGXJ3g7-32">
-          <mxGeometry x="-0.1211" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="gXYf_dAZeqefdJGXJ3g7-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=default;startArrow=none;startFill=0;endArrow=classic;endFill=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="gXYf_dAZeqefdJGXJ3g7-35" target="gXYf_dAZeqefdJGXJ3g7-36">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1190" y="90" />
-              <mxPoint x="1190" y="90" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="gXYf_dAZeqefdJGXJ3g7-35" value="LEMT-API.py" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="1130" y="150" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="gXYf_dAZeqefdJGXJ3g7-36" value="/nas/observatory&lt;br&gt;(LEMT-Tool Logs)" style="fontColor=#0066CC;verticalAlign=bottom;verticalLabelPosition=top;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.nas_filer;" vertex="1" parent="1">
-          <mxGeometry x="1140" y="70" width="100" height="35" as="geometry" />
-        </mxCell>
-        <mxCell id="gXYf_dAZeqefdJGXJ3g7-38" value="HTTP Calls" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.786;entryY=1.007;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=default;startArrow=blockThin;startFill=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="gXYf_dAZeqefdJGXJ3g7-39" target="gXYf_dAZeqefdJGXJ3g7-37">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="gXYf_dAZeqefdJGXJ3g7-39" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.website_generic;pointerEvents=1;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="1133" y="390" width="178" height="130" as="geometry" />
-        </mxCell>
-        <mxCell id="gXYf_dAZeqefdJGXJ3g7-40" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/phosphor-fill-vol-3/256/number-square-two-fill-128.png;fontColor=default;strokeWidth=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1236" y="135" width="28" height="28" as="geometry" />
-        </mxCell>
-        <mxCell id="gXYf_dAZeqefdJGXJ3g7-41" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/free-funktional-icons/48/01_Warning_48x48.png;fontColor=default;strokeWidth=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="240" y="192" width="18" height="18" as="geometry" />
-        </mxCell>
-        <mxCell id="gXYf_dAZeqefdJGXJ3g7-42" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/scripting-and-programming-languages/512/Python_logo-128.png;fontColor=default;strokeWidth=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="800" y="250.75" width="20" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="gXYf_dAZeqefdJGXJ3g7-43" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/scripting-and-programming-languages/512/Python_logo-128.png;fontColor=default;strokeWidth=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1228.5" y="188.5" width="21.5" height="21.5" as="geometry" />
-        </mxCell>
-        <mxCell id="gXYf_dAZeqefdJGXJ3g7-44" value="" style="group;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="210" width="133" height="150" as="geometry" />
-        </mxCell>
-        <mxCell id="gXYf_dAZeqefdJGXJ3g7-45" value="" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="gXYf_dAZeqefdJGXJ3g7-44">
-          <mxGeometry y="10" width="120" height="130" as="geometry" />
-        </mxCell>
-        <mxCell id="gXYf_dAZeqefdJGXJ3g7-46" value="bevas01vr" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/VM_Linux.svg;labelPosition=center;verticalLabelPosition=top;verticalAlign=bottom;" vertex="1" parent="gXYf_dAZeqefdJGXJ3g7-44">
-          <mxGeometry x="15" y="40" width="50" height="46" as="geometry" />
-        </mxCell>
-        <mxCell id="gXYf_dAZeqefdJGXJ3g7-47" value="Crontab" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/Futurosoft%20Icons%200.5.2/128x128/mimetypes/Schedule_File.png" vertex="1" parent="gXYf_dAZeqefdJGXJ3g7-44">
-          <mxGeometry x="40" y="60" width="50" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="gXYf_dAZeqefdJGXJ3g7-48" value="skrish04" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/azure_stack/User_Subscriptions.svg;" vertex="1" parent="gXYf_dAZeqefdJGXJ3g7-44">
-          <mxGeometry x="73.20999999999998" y="14" width="26.79" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="gXYf_dAZeqefdJGXJ3g7-49" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/phosphor-fill-vol-3/256/number-square-one-fill-128.png;fontColor=default;strokeWidth=1;fillColor=none;" vertex="1" parent="gXYf_dAZeqefdJGXJ3g7-44">
-          <mxGeometry x="100" width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="gXYf_dAZeqefdJGXJ3g7-50" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/generic_server.svg;" vertex="1" parent="gXYf_dAZeqefdJGXJ3g7-44">
-          <mxGeometry x="102" y="100" width="28.000000000000004" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="gXYf_dAZeqefdJGXJ3g7-52" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/generic_server.svg;" vertex="1" parent="1">
-          <mxGeometry x="800" y="186" width="28.000000000000004" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="gXYf_dAZeqefdJGXJ3g7-53" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/generic_server.svg;" vertex="1" parent="1">
-          <mxGeometry x="1120" y="124" width="28.000000000000004" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="gXYf_dAZeqefdJGXJ3g7-4" value="Server1" style="image;html=1;image=img/lib/clip_art/computers/Server_Rack_128x128.png" vertex="1" parent="1">
-          <mxGeometry x="20" y="170.75" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="gXYf_dAZeqefdJGXJ3g7-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gXYf_dAZeqefdJGXJ3g7-7" target="gXYf_dAZeqefdJGXJ3g7-5">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="gXYf_dAZeqefdJGXJ3g7-7" value="Server2" style="image;html=1;image=img/lib/clip_art/computers/Server_Rack_128x128.png" vertex="1" parent="1">
-          <mxGeometry x="-10" y="190.75" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="gXYf_dAZeqefdJGXJ3g7-5" value="TAS Portal&lt;br&gt;(Logs)" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#505050;shape=mxgraph.mscae.oms.log_management" vertex="1" parent="1">
-          <mxGeometry x="120" y="205.75" width="41" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="gXYf_dAZeqefdJGXJ3g7-10" value="Server3" style="image;html=1;image=img/lib/clip_art/computers/Server_Rack_128x128.png" vertex="1" parent="1">
-          <mxGeometry x="-30" y="177.5" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="gXYf_dAZeqefdJGXJ3g7-57" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/preview/Time_Series_Data_Sets.svg;" vertex="1" parent="1">
-          <mxGeometry x="946" y="137" width="48" height="64" as="geometry" />
-        </mxCell>
-        <mxCell id="evOIvVAKoPCNP1A1HWml-1" value="UI Automation&lt;br&gt;Write API" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/compute/Azure_Spring_Cloud.svg;imageBackground=#CCFFE6;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="258" y="198.75" width="68" height="64" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
